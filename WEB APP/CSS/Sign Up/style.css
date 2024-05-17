@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+.Signin{
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20vh;
+
+    
+}
+.Signin img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+    
+    height: 120px;
+    width: 350px;
+
+
+    
+}
+.Signin h1{
+
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.check{
+    font-size:20px ;
+    padding-left: 30px;
+    margin:10px;
+
+}
+.input{
+    padding: 3px;
+}
+.input input{
+
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    margin: 0px,auto;
+
+}
+.check{
+    font-size: 20px;
+}
+
+.Signin .butt{
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+.Signin button {
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(19, 4, 105);
+    margin: 0px,auto;
+}
+.Signin button:hover{
+    background-color: white;
+    color: rgb(19, 4, 105);
+}
+
+
+.option{
+    margin: 25px;
+    display: flex;
+    width:100%;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.option a{
+    text-decoration: none;
+
+}
+.option a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 7vh;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+}
+.left i{
+    padding: 5px;
+    font-size: 40px;
+
+}
+.left img{
+    height: 40px;
+
+}
+.left div{
+    height: auto;
+    width: fit-content;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right input{
+    height: 28px;
+    width: 300px;
+}
+
+.center{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right input{
+    position: relative;
+}
+.right i{
+    color: black;
+    position: absolute;
+    right: 1.5%;
+    top: 2.5%;
+
+}
+
+
+
+#box1{
+
+    background-color: chartreuse;
+
+
+}
+#box2{
+
+    background-color: rgb(47, 0, 255);
+
+    right: 0;
+    top: 7%;
+}
+#box3{
+
+    background-color: rgb(255, 0, 0);
+   
+    bottom: 0;
+    right: 0;
+}
+#box4{
+
+    background-color: rgb(255, 238, 0);
+
+    bottom: 0;
+    left: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
